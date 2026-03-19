@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>To Do List📒</title>
+</head>
+<body>
+  <div class="container">
+    <div class="notification" id="notify">
+      <p style="color:#2E7D32;" class="notify-message"><i class="fa-solid fa-circle-check fa-xl" style="color: #10993e; margin-right:5px;"></i></p>
+    </div>
+    <div class="wrapper"> 
+      <div class="menu">
+        <div class="hamburger-bar">
+          <span class="span-1"></span>
+          <span class="span-2"></span>
+          <span class="span-3"></span>  
+        </div>
+        <div id="text">
+          <h3>To Do List</h3>
+        </div>
+      </div>
+      <form action="">
+        <div class="input-task">
+          <input type="text" placeholder="Input a new task..." id="input-task">
+          <button class="add-todo" type="button">Add Todo</button>
+        </div>
+        <div class="todolist">
+          <ul id="todolist">
+          </ul>
+        </div>
+      </form>
+    </div>
+    <button class="delete-all">Delete All</button>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/95ce362cfe.js" crossorigin="anonymous"></script>
+</body>
+</html>
